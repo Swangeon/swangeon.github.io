@@ -4,5 +4,6 @@
 *.html diff=html encoding=utf-8
 *.js diff=js encoding=utf-8
 *.md diff=markdown encoding=utf-8
-*.png binary diff=exif encoding=binary # Temporary until the Capstone Project image gets replaced with an SVG
+# PNG is temporary until the Capstone Project image gets replaced with an SVG
+*.png binary diff=exif encoding=binary
 *.svg diff=svg encoding=utf-8
