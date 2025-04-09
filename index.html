@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Sean's Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="Development portfolio of Sean Brady" name="description" property="og:description">
+
+	<link href="style.css" rel="stylesheet">
+  <link href="fonts.css" rel="stylesheet" type="text/css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- Load JQuery as the script depends on it -->
+  <script src="./index.js"></script>
+</head>
+
+<body>
+  <div class="preloader"></div>
+  <main>
+
+  <section class="intro">
+		<div class="intro-text">
+      <div class="Welcome">
+				<h1>Hi! 👋  &mdash; My name is <span>Sean</span>, I'm a <span>developer</span> 👨🏻‍💻 located in Texas, US.</h1>
+      </div>
+    </div>
+	</section>
+
+  <section class="projects">
+    <div class="projects-collage">
+
+      <a class="project-item"  target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="https://images.unsplash.com/photo-1491931648265-8f68c1dc731b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=717ea0ca5595686d6311578a5b010861&auto=format&fit=crop&w=1050&q=80">
+          <figcaption class="project-text">
+            <h2>Project One</h2>
+            <p>Awesome Development</p>
+           <p class='hidden popUpdesc'> PROJECT ONE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        <span id="githubRepo" href=""></span>
+        <span id="livePreview" href=""></span>
+          </figcaption>
+        </figure>
+			</a>
+
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="Assets/beaverhealth-logo.png">
+          <figcaption class="project-text">
+            <h2>BeaverHealth Vulnerable Web App</h2>
+            <p>Senior Capstone: Website Security Research Project</p>
+           <p class='hidden popUpdesc'> BeaverHealth Vulnerable Web App is a deliberately vulnerable PHP Laravel/MySQL web application designed to educate users about a subset of common web security vulnerabilities from the OWASP Top 10.
+          </p>
+        <span id="githubRepo" href="https://github.com/BeaverHealth-Vulnerable-Web-App"></span>
+        <span id="livePreview" href=""></span>
+      </figcaption>
+      </figure>
+			</a>
+
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5eb27a51db4fda32656d35b5e6b93574&auto=format&fit=crop&w=1050&q=80">
+          <figcaption class="project-text">
+            <h2>Project Three</h2>
+            <p>Awesome Development</p>
+           <p class='hidden popUpdesc'> PROJECT THREE Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        <span id="githubRepo" href=""></span>
+        <span id="livePreview" href=""></span>
+          </figcaption>
+        </figure>
+			</a>
+
+      <a class="project-item" target="_blank">
+        <figure class="project-figure">
+          <div class="project-overlay"></div>
+          <img src="https://images.unsplash.com/photo-1494366222322-387658a1a976?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24100980ab1a60783e1c847b7965bd11&auto=format&fit=crop&w=1051&q=80">
+          <figcaption class="project-text">
+            <h2>Project Four</h2>
+            <p>Awesome Development</p>
+           <p class='hidden popUpdesc'> PROJECT FOUR Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        <span id="githubRepo" href=""></span>
+        <span id="livePreview" href=""></span>
+          </figcaption>
+        </figure>
+			</a>
+    </div>
+	</section>
+
+  <section class="content contact">
+    <!-- <a class="button-slide" data-hover="" href="mailto:">
+      <span>Talk To Me 👌</span>
+    </a> -->
+    <div id='form'>
+      <h1>Drop a message below.</h1>
+      <p>And I'll get to you ASAP (NOTE: Not fully functional yet)</p>
+      <form>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <textArea placeholder="Message here please">
+        </textArea>
+        <div id='buttonDiv'>
+          <button>Send</button>
+        </div>
+      </form>
+    </div>
+    </section>
+
+  <footer>
+    <div class="wrapper">
+      <ul>
+        <li>
+          <a href="https://bsky.app/profile/haldorn.bsky.social" target="_blank">Bluesky</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/sean-b-2582aa215" target="_blank">Linkedin</a>
+				</li>
+				<li>
+						<a href="https://github.com/Swangeon" target="_blank">GitHub</a>
+					</li>
+      </ul>
+    </div>
+	</footer>
+  </main>
+
+  <!--This section would ONLY appear when an individual project 'box' is clicked, It gives more detail about the project. it contains-- IMAGE OF THE PROJECT, THE PROJECT'S NAME, THE PROJECT FULL DESCRIPTION, GITHUB LINK && PREVIEW LINK -->
+  <div class="popUp">
+    <div class="popUpImg"></div>
+    <div id="popUpText">
+      <h1>Project's Name</h1>
+      <p class="projectDesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus non ipsum itaque ratione dolorem. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div>
+        <a href="" id="githubLink"></a>
+        <a href="" id="previewLink"></a>
+      </div>
+
+    </div>
+    <span id="cancelBtn">X</span>
+  </div>
+</body>
+
+
+</html>
