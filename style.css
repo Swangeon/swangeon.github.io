@@ -581,7 +581,7 @@ footer ul li a:hover:after {
 #form form button::before {
   width: 30px;
   height: 30px;
-  background: url('./Assets/right-arrow.svg');
+  background: url('./assets/right-arrow.svg');
   content: '';
   display: block;
   position: absolute;
