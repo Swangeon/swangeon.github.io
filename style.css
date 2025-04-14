@@ -156,19 +156,13 @@ b {
     bottom: 2rem
 }
 
-/* Intro section style ends */
-
-/****************************/
-
-/* Project section begins */
-
 .projects {
     margin-top: 80vh;
     background-color: #eee;
 }
 
 .projects .projects-collage {
-    /* max-width: 96rem;    Enable this if you want some margin down the sides of the projects. */
+    /* max-width: 96rem; */
     margin: 0 auto
 }
 
@@ -268,12 +262,6 @@ img {
     height: 375px;
     width: 100%
 }
-
-/* Project style section ends */
-
-/******************************/
-
-/* Contact section begins */
 
 a.button-slide {
     position: relative;
@@ -386,11 +374,6 @@ footer ul li a:hover:after {
     transform: scaleX(1)
 }
 
-/* Contact section ends */
-
-/****************************/
-
-/* PopUp section begins */
 .popUp{
     color: black;
     /* height: 70vh; */
@@ -446,28 +429,6 @@ footer ul li a:hover:after {
     grid-template-columns: repeat(2, 10%);
 }
 
-.popUp div:nth-child(2) div a:nth-child(1){
-    width: 20px;
-    height: 20px;
-    background: url('https://image.flaticon.com/icons/svg/1051/1051377.svg');
-    background-size: cover;
-    display: block;
-}
-
-.popUp div:nth-child(2) div a:nth-child(2){
-    width: 20px;
-    height: 20px;
-    background: url('https://image.flaticon.com/icons/svg/1246/1246334.svg');
-    background-size: cover;
-    display: block;
-}
-
-/****************************/
-
-/* PopUp section ends for DESKTOP VIEW */
-
-/* Tablet styling for popUp */
-
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .popUp{
         width: 95vw;
@@ -485,10 +446,6 @@ footer ul li a:hover:after {
     }
 }
 
-/* END OF Tablet styling for popUp */
-
-
-/* START OF styling mobile view for popUp */
 @media (min-width: 320px) and (max-width: 480px) {
  .popUp{
         width: 95vw;
@@ -507,11 +464,7 @@ footer ul li a:hover:after {
         height: 50vh;
     }
 }
-/* END OF styling mobile view for popUp */
 
-/* ************************************ */
-
-/* Styling for form on DESKTOP/PC VIEW  */
 #form {
   width: 60%;
   margin: 0 auto;
@@ -521,7 +474,15 @@ footer ul li a:hover:after {
   font-size: 2em;
   text-transform: uppercase;
 }
-#form p{
+#form h2 {
+  font-size: 1.2em;
+  color: green;
+  width: max-content;
+  padding: 0.4em;
+  border-radius: 100px;
+  margin-bottom: 1em;
+}
+#form p {
   margin-bottom: 3.2em;
   font-size: 1em;
   color: white;
@@ -616,13 +577,6 @@ footer ul li a:hover:after {
   }
 }
 
-/********************/
-
-/*END OF Styling for form on DESKTOP/PC VIEW  */
-
-/********************/
-
-/* Styling for form on TABLET VIEW  */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
   #form {
     text-align: left;
@@ -635,13 +589,7 @@ footer ul li a:hover:after {
     width: 30vw;
   }
 }
-/********************/
 
-/* END Styling for form on TABLET VIEW  */
-
-/********************/
-
-/* Styling for form on MOBILE VIEW  */
 @media (min-width: 320px) and (max-width: 480px) {
   #form {
     text-align: left;
@@ -669,6 +617,3 @@ footer ul li a:hover:after {
     width: 60vw;
   }
 }
-/********************/
-
-/* END Styling for form on MOBILE VIEW  */
